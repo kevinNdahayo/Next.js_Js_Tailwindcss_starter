@@ -24,7 +24,7 @@ function projectCard() {
         </div>
       </div>
       </div>
-      {/* Links */}
+      {/* Links to navigation*/}
       <div className="flex flex-row justify-end items-end">
         <div className="flex flex-row">
         {/* Live demo */}
