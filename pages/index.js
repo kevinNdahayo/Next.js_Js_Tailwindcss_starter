@@ -1,12 +1,14 @@
 import Head from "next/head";
-
+import ProjectCard from "../components/project";
 export default function Home() {
   return (
     <>
       <Head>
-        <title>App_Title</title>
+        <title>Kevin Ndahayo</title>
       </Head>
-      <section className="text-2xl text-red-500">Body</section>
+      <section className="">
+        <ProjectCard />
+      </section>
     </>
   );
 }
